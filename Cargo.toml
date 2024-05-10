@@ -8,3 +8,28 @@ members = ["crates/*", "timestone_wasm"]
 authors = ["Sarath Suresh <sarathmenon.downey@gmail.com>"]
 categories = ["development-tools", "web-programming", "compilers"]
 description = "Rust backend for timestone"
+
+[workspace.dependencies]
+wasm-bindgen = { version = "0.2.92", features = ["serde-serialize"] }
+tsify = "0.4.5"
+oxc_allocator = "0.10.0"
+oxc_ast = { version = "0.10.0", features = ["serialize"] }
+oxc_parser = "0.10.0"
+oxc_span = "0.10.0"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.115"
+serde-wasm-bindgen = "0.6.5"
+web-sys = { version = "0.3.69", features = [
+    "console",
+    "Window",
+    "MouseEvent",
+    'Headers',
+    'Request',
+    'RequestInit',
+    'RequestMode',
+    'Response',
+] }
+wasm-bindgen-futures = "0.4.42"
+console_error_panic_hook = "0.1.7"
+reqwest = { version = "0.12.4", features = ["json"] }
+serde_derive = "1.0.201"
