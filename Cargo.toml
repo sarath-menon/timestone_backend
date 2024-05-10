@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["crates/*", "timestone_wasm"]
+# exclude = ["tasks/lint_rules"]
+
+
+[workspace.package]
+authors = ["Sarath Suresh <sarathmenon.downey@gmail.com>"]
+categories = ["development-tools", "web-programming", "compilers"]
+description = "Rust backend for timestone"
