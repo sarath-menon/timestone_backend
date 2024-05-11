@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/*", "timestone_wasm"]
+members = ["crates/*", "timestone_python", "timestone_wasm"]
 # exclude = ["tasks/lint_rules"]
 
 
