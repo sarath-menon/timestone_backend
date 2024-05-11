@@ -679,6 +679,8 @@ name = "timestone_python"
 version = "0.1.0"
 dependencies = [
  "pyo3",
+ "serde_json",
+ "timestone_tsx_parser",
 ]
 
 [[package]]
