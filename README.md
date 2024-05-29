@@ -1,4 +1,6 @@
-Programatically navigate typescript AST for React components. The following functionality is available:
+Programatically navigate typescript AST for React components. The webassembly version and python bindings are also included in the timestone_python and timestone_wasm folders. 
+
+The following functionality is available:
 
 - [x] Get list React components and subcomponents as a hierarchy
 - [x] Get the list of imported components and libraries
