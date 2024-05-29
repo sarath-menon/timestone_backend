@@ -1,6 +1,6 @@
 Programatically navigate typescript AST for React components. The webassembly version and python bindings are also included in the timestone_python and timestone_wasm folders. 
 
-The following functionality is available:
+We use the [Oxc](https://github.com/oxc-project/oxc) typescript parser to navigate the AST. Kudos to the Oxc team for making it super easy to use!. The following functionality is available:
 
 - [x] Get list React components and subcomponents as a hierarchy
 - [x] Get the list of imported components and libraries
